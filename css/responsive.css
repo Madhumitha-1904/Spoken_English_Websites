@@ -1,0 +1,367 @@
+/* ==========================================
+   SpeakPro English Academy
+   Responsive Stylesheet
+========================================== */
+
+/* ==========================================
+   Large Devices (≤1200px)
+========================================== */
+
+@media (max-width:1200px){
+
+.hero h1{
+    font-size:48px;
+}
+
+.section-title{
+    font-size:16px;
+}
+
+h2{
+    font-size:36px;
+}
+
+.hero-image{
+    width:100%;
+}
+
+}
+
+/* ==========================================
+   Laptops & Tablets (≤992px)
+========================================== */
+
+@media (max-width:992px){
+
+section{
+    padding:70px 0;
+}
+
+.hero{
+    text-align:center;
+    padding-top:140px;
+}
+
+.hero-image{
+    margin-top:40px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.about-home img{
+    margin-bottom:35px;
+}
+
+.cta-section{
+    text-align:center;
+}
+
+.cta-btn{
+    margin-top:20px;
+}
+
+.counter-section .col-md-3{
+    margin-bottom:30px;
+}
+
+.footer{
+    text-align:center;
+}
+
+.social-icons{
+    justify-content:center;
+}
+
+}
+
+/* ==========================================
+   Tablets (≤768px)
+========================================== */
+
+@media (max-width:768px){
+
+h1{
+    font-size:34px;
+}
+
+h2{
+    font-size:30px;
+}
+
+h3{
+    font-size:24px;
+}
+
+p{
+    font-size:15px;
+}
+
+.hero{
+    padding-top:120px;
+}
+
+.hero-btn,
+.hero-btn2{
+
+    display:block;
+    width:100%;
+    margin-bottom:15px;
+    text-align:center;
+
+}
+
+.about-btn,
+.course-btn,
+.cta-btn{
+
+    width:100%;
+    text-align:center;
+
+}
+
+.feature-card,
+.course-card,
+.blog-card,
+.testimonial-card{
+
+    margin-bottom:25px;
+
+}
+
+.gallery-img{
+
+    height:220px;
+
+}
+
+.newsletter-form .input-group{
+
+    flex-direction:column;
+
+}
+
+.newsletter-form .form-control{
+
+    border-radius:50px;
+    margin-bottom:15px;
+
+}
+
+.newsletter-form .btn{
+
+    border-radius:50px;
+    width:100%;
+
+}
+
+}
+
+/* ==========================================
+   Mobile Devices (≤576px)
+========================================== */
+
+@media (max-width:576px){
+
+.hero{
+
+    padding-top:100px;
+
+}
+
+.hero h1{
+
+    font-size:28px;
+
+}
+
+.section-title{
+
+    font-size:15px;
+
+}
+
+h2{
+
+    font-size:26px;
+
+}
+
+.navbar-brand{
+
+    font-size:22px;
+
+}
+
+.navbar-brand img{
+
+    width:35px;
+
+}
+
+.hero-image{
+
+    margin-top:25px;
+
+}
+
+.counter-section h2{
+
+    font-size:38px;
+
+}
+
+.counter-section p{
+
+    font-size:15px;
+
+}
+
+.testimonial-img{
+
+    width:90px;
+    height:90px;
+
+}
+
+.blog-card img{
+
+    height:200px;
+
+}
+
+.gallery-img{
+
+    height:180px;
+
+}
+
+.whatsapp-btn{
+
+    width:50px;
+    height:50px;
+    font-size:24px;
+    right:18px;
+    bottom:80px;
+
+}
+
+#topBtn{
+
+    width:48px;
+    height:48px;
+    right:18px;
+
+}
+
+.footer{
+
+    padding:50px 0 20px;
+
+}
+
+.footer-logo{
+
+    font-size:24px;
+
+}
+
+}
+
+/* ==========================================
+   Extra Small Devices (≤400px)
+========================================== */
+
+@media (max-width:400px){
+
+.hero h1{
+
+    font-size:24px;
+
+}
+
+.hero p{
+
+    font-size:14px;
+
+}
+
+h2{
+
+    font-size:22px;
+
+}
+
+.section-title{
+
+    font-size:14px;
+
+}
+
+.feature-card{
+
+    padding:25px 18px;
+
+}
+
+.course-content{
+
+    padding:20px;
+
+}
+
+.blog-content{
+
+    padding:20px;
+
+}
+
+.testimonial-card{
+
+    padding:25px 18px;
+
+}
+
+.footer h4{
+
+    margin-top:20px;
+
+}
+
+}
+
+/* ==========================================
+   Responsive Navigation
+========================================== */
+
+@media (max-width:992px){
+
+.navbar-collapse{
+
+    background:#ffffff;
+    margin-top:15px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.nav-link{
+
+    margin:10px 0;
+
+}
+
+.demo-btn{
+
+    display:inline-block;
+    margin-top:15px;
+
+}
+
+}

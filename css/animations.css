@@ -1,0 +1,399 @@
+/* ==========================================
+   SpeakPro English Academy
+   Animation Stylesheet
+========================================== */
+
+/* ==========================================
+   GLOBAL TRANSITIONS
+========================================== */
+
+*{
+    transition: all 0.3s ease;
+}
+
+/* ==========================================
+   FADE IN ANIMATION
+========================================== */
+
+.fade-in{
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* ==========================================
+   SLIDE FROM LEFT
+========================================== */
+
+.slide-left{
+
+    animation:slideLeft 1s ease;
+
+}
+
+@keyframes slideLeft{
+
+    from{
+        opacity:0;
+        transform:translateX(-80px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+}
+
+/* ==========================================
+   SLIDE FROM RIGHT
+========================================== */
+
+.slide-right{
+
+    animation:slideRight 1s ease;
+
+}
+
+@keyframes slideRight{
+
+    from{
+        opacity:0;
+        transform:translateX(80px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+}
+
+/* ==========================================
+   ZOOM IN
+========================================== */
+
+.zoom-in{
+
+    animation:zoomIn .8s ease;
+
+}
+
+@keyframes zoomIn{
+
+    from{
+
+        opacity:0;
+        transform:scale(.8);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:scale(1);
+
+    }
+
+}
+
+/* ==========================================
+   FLOATING ANIMATION
+========================================== */
+
+.float{
+
+    animation:floating 4s ease-in-out infinite;
+
+}
+
+@keyframes floating{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+/* ==========================================
+   BUTTON HOVER EFFECT
+========================================== */
+
+.hero-btn,
+.hero-btn2,
+.about-btn,
+.course-btn,
+.cta-btn,
+.demo-btn{
+
+    transition:.35s ease;
+
+}
+
+.hero-btn:hover,
+.hero-btn2:hover,
+.about-btn:hover,
+.course-btn:hover,
+.cta-btn:hover,
+.demo-btn:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.18);
+
+}
+
+/* ==========================================
+   CARD HOVER EFFECT
+========================================== */
+
+.feature-card,
+.course-card,
+.blog-card,
+.testimonial-card{
+
+    transition:.4s ease;
+
+}
+
+.feature-card:hover,
+.course-card:hover,
+.blog-card:hover,
+.testimonial-card:hover{
+
+    transform:translateY(-12px);
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+/* ==========================================
+   IMAGE ZOOM
+========================================== */
+
+.gallery-img,
+.blog-card img,
+.course-card img{
+
+    transition:.5s ease;
+
+}
+
+.gallery-img:hover,
+.blog-card:hover img,
+.course-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* ==========================================
+   SOCIAL ICON EFFECT
+========================================== */
+
+.social-icons a{
+
+    transition:.35s;
+
+}
+
+.social-icons a:hover{
+
+    transform:rotate(360deg) scale(1.15);
+
+}
+
+/* ==========================================
+   NAVBAR LINK UNDERLINE
+========================================== */
+
+.nav-link{
+
+    position:relative;
+
+}
+
+.nav-link::after{
+
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0;
+    height:2px;
+    background:var(--accent);
+    transition:.4s;
+
+}
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+/* ==========================================
+   FEATURE ICON EFFECT
+========================================== */
+
+.feature-card i{
+
+    transition:.4s;
+
+}
+
+.feature-card:hover i{
+
+    transform:scale(1.2) rotate(10deg);
+
+}
+
+/* ==========================================
+   TESTIMONIAL IMAGE
+========================================== */
+
+.testimonial-img{
+
+    transition:.4s;
+
+}
+
+.testimonial-card:hover .testimonial-img{
+
+    transform:scale(1.08);
+
+}
+
+/* ==========================================
+   WHATSAPP BUTTON PULSE
+========================================== */
+
+.whatsapp-btn{
+
+    animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+
+        box-shadow:0 0 0 0 rgba(37,211,102,.7);
+
+    }
+
+    70%{
+
+        box-shadow:0 0 0 20px rgba(37,211,102,0);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 0 0 rgba(37,211,102,0);
+
+    }
+
+}
+
+/* ==========================================
+   SCROLL BUTTON
+========================================== */
+
+#topBtn{
+
+    transition:.4s;
+
+}
+
+#topBtn:hover{
+
+    transform:translateY(-6px);
+
+}
+
+/* ==========================================
+   HERO IMAGE
+========================================== */
+
+.hero-image{
+
+    animation:heroFloat 5s ease-in-out infinite;
+
+}
+
+@keyframes heroFloat{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-20px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   NEWSLETTER INPUT
+========================================== */
+
+.newsletter input:focus{
+
+    transform:scale(1.02);
+
+}
+
+/* ==========================================
+   FOOTER LINKS
+========================================== */
+
+.footer-links a{
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    padding-left:10px;
+
+}
+
+/* ==========================================
+   SMOOTH SCROLL
+========================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
